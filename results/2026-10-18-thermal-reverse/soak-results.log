@@ -1,0 +1,12 @@
+soak-switch-1half run 1: rocep1s0f1=99.63  TOTAL=99.63 Gb/s
+soak-switch-cable run 1: rocep1s0f1=98.03 roceP2p1s0f1=98.03  TOTAL=196.06 Gb/s
+soak-direct-cable run 1: rocep1s0f0=98.03 roceP2p1s0f0=98.04  TOTAL=196.07 Gb/s
+soak-both-cables run 1: rocep1s0f0=49.40 roceP2p1s0f0=49.40 rocep1s0f1=49.41 roceP2p1s0f1=49.41  TOTAL=197.62 Gb/s
+  [rocep1s0f1:10.100.152.1] no result:
+  [roceP2p1s0f1:10.100.153.1] no result:
+soak-event-switch-cable run 1: rocep1s0f1=0 roceP2p1s0f1=0  TOTAL=0 Gb/s
+  [rocep1s0f0:10.100.154.1] no result:
+  [roceP2p1s0f0:10.100.155.1] no result:
+  [rocep1s0f1:10.100.152.1] no result:
+  [roceP2p1s0f1:10.100.153.1] no result:
+soak-event-both-cables run 1: rocep1s0f0=0 roceP2p1s0f0=0 rocep1s0f1=0 roceP2p1s0f1=0  TOTAL=0 Gb/s

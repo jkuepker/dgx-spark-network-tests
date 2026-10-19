@@ -1,0 +1,10 @@
+soak-poll-switch-cable run 1: rocep1s0f1=98.04 roceP2p1s0f1=98.04  TOTAL=196.08 Gb/s
+  counters soak-poll-switch-cable run 1: rocep1s0f1=99.42 roceP2p1s0f1=99.42  TOTAL=198.85 Gb/s wire, over 150 s
+soak-event-switch-cable run 1: rocep1s0f1=98.04 roceP2p1s0f1=98.04  TOTAL=196.08 Gb/s
+  counters soak-event-switch-cable run 1: rocep1s0f1=99.42 roceP2p1s0f1=99.42  TOTAL=198.85 Gb/s wire, over 150 s
+soak-poll-both-cables run 1: rocep1s0f0=49.41 roceP2p1s0f0=49.41 rocep1s0f1=49.40 roceP2p1s0f1=49.40  TOTAL=197.62 Gb/s
+  counters soak-poll-both-cables run 1: rocep1s0f0=50.11 roceP2p1s0f0=50.11 rocep1s0f1=50.10 roceP2p1s0f1=50.10  TOTAL=200.43 Gb/s wire, over 150 s
+soak-event-both-cables run 1: rocep1s0f0=49.41 roceP2p1s0f0=49.41 rocep1s0f1=49.41 roceP2p1s0f1=49.42  TOTAL=197.65 Gb/s
+  counters soak-event-both-cables run 1: rocep1s0f0=50.11 roceP2p1s0f0=50.11 rocep1s0f1=50.11 roceP2p1s0f1=50.11  TOTAL=200.45 Gb/s wire, over 150 s
+RESULT nccl=2.29.7 torch=2.13.0+cu130 size=268435456 iters=14753 secs=180.2 busbw_GBps=21.97
+HEAT_DONE

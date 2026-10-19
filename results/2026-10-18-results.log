@@ -1,0 +1,22 @@
+switch-1half run 1: rocep1s0f1=107.79  TOTAL=107.79 Gb/s
+switch-1half run 2: rocep1s0f1=107.77  TOTAL=107.77 Gb/s
+switch-1half run 3: rocep1s0f1=107.82  TOTAL=107.82 Gb/s
+direct-1half run 1: rocep1s0f0=108.33  TOTAL=108.33 Gb/s
+direct-1half run 2: rocep1s0f0=108.33  TOTAL=108.33 Gb/s
+direct-1half run 3: rocep1s0f0=108.33  TOTAL=108.33 Gb/s
+switch-cable run 1: rocep1s0f1=98.03 roceP2p1s0f1=98.04  TOTAL=196.07 Gb/s
+switch-cable run 2: rocep1s0f1=98.04 roceP2p1s0f1=98.04  TOTAL=196.08 Gb/s
+switch-cable run 3: rocep1s0f1=98.03 roceP2p1s0f1=98.04  TOTAL=196.07 Gb/s
+switch-cable run 4: rocep1s0f1=98.04 roceP2p1s0f1=98.03  TOTAL=196.07 Gb/s
+switch-cable run 5: rocep1s0f1=98.04 roceP2p1s0f1=98.04  TOTAL=196.08 Gb/s
+direct-cable run 1: rocep1s0f0=98.04 roceP2p1s0f0=98.04  TOTAL=196.08 Gb/s
+direct-cable run 2: rocep1s0f0=98.04 roceP2p1s0f0=98.03  TOTAL=196.07 Gb/s
+direct-cable run 3: rocep1s0f0=98.04 roceP2p1s0f0=98.04  TOTAL=196.08 Gb/s
+direct-cable run 4: rocep1s0f0=98.04 roceP2p1s0f0=98.04  TOTAL=196.08 Gb/s
+direct-cable run 5: rocep1s0f0=98.04 roceP2p1s0f0=98.03  TOTAL=196.07 Gb/s
+both-cables run 1: rocep1s0f0=55.04 roceP2p1s0f0=55.03 rocep1s0f1=53.26 roceP2p1s0f1=53.26  TOTAL=216.59 Gb/s
+both-cables run 2: rocep1s0f0=55.07 roceP2p1s0f0=55.08 rocep1s0f1=53.19 roceP2p1s0f1=53.23  TOTAL=216.57 Gb/s
+both-cables run 3: rocep1s0f0=55.07 roceP2p1s0f0=55.07 rocep1s0f1=53.24 roceP2p1s0f1=53.22  TOTAL=216.60 Gb/s
+both-cables run 4: rocep1s0f0=55.09 roceP2p1s0f0=55.09 rocep1s0f1=53.21 roceP2p1s0f1=53.22  TOTAL=216.61 Gb/s
+both-cables run 5: rocep1s0f0=55.08 roceP2p1s0f0=55.07 rocep1s0f1=53.13 roceP2p1s0f1=53.22  TOTAL=216.50 Gb/s
+MATRIX_DONE

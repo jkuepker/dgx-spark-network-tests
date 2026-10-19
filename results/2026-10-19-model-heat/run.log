@@ -1,0 +1,21 @@
+02:03:05 stop fleet servers
+18:  ib_links: 1                                   # RDMA devices per box: 2 = both halves of the ConnectX-7 (needs an IPv4 on the
+02:03:13 settle 120 s, nothing running
+02:05:13 == model-A-2rails: NCCL_IB_HCA=rocep1s0f1,roceP2p1s0f1
+(Worker pid=165) INFO 10-19 06:05:55 [b12x_roce_all_reduce.py:124] Using RoCEnante (b12x one-shot RoCE collectives): world=2, hcas=rocep1s0f1,roceP2p1s0f1, all-reduce max=2097152 bytes, all-gather shard max=16777216 bytes.
+(Worker_TP0_EP0 pid=165) INFO 10-19 06:08:21 [b12x_roce_all_reduce.py:210] RoCEnante all-reduce is live: first routed all-reduce is 327680 bytes (bfloat16); NCCL remains the fallback above 2MB.
+NCCL_IB_HCA=rocep1s0f1,roceP2p1s0f1
+02:11:05 loaded, idle 180s
+02:29:07 model-A-2rails: 21 load iterations
+02:29:14 cooldown 300s
+02:34:14 == model-B-4rails: NCCL_IB_HCA=rocep1s0f1,roceP2p1s0f1,rocep1s0f0,roceP2p1s0f0
+(Worker pid=162) INFO 10-19 06:35:05 [b12x_roce_all_reduce.py:124] Using RoCEnante (b12x one-shot RoCE collectives): world=2, hcas=rocep1s0f1,roceP2p1s0f1, all-reduce max=2097152 bytes, all-gather shard max=16777216 bytes.
+(Worker_TP0_EP0 pid=162) INFO 10-19 06:37:28 [b12x_roce_all_reduce.py:210] RoCEnante all-reduce is live: first routed all-reduce is 327680 bytes (bfloat16); NCCL remains the fallback above 2MB.
+NCCL_IB_HCA=rocep1s0f1,roceP2p1s0f1,rocep1s0f0,roceP2p1s0f0
+02:41:02 loaded, idle 180s
+02:59:47 model-B-4rails: 22 load iterations
+02:59:53 cooldown 300s
+03:04:53 HEAT_DONE
+03:04:53 restore: stop cluster, put recipe files back, start fleet servers
+03:08:19   up: http://spark-4e77:8000/v1/models
+03:08:19   up: http://spark-fa00:8000/v1/models

@@ -1,0 +1,19 @@
+1cage-1rail-linkA run 1: rocep1s0f0=197.71  TOTAL=197.71 Gb/s
+1cage-1rail-linkA run 2: rocep1s0f0=197.71  TOTAL=197.71 Gb/s
+1cage-1rail-linkA run 3: rocep1s0f0=197.71  TOTAL=197.71 Gb/s
+1cage-2rails-linkA+B run 1: rocep1s0f0=193.49 roceP2p1s0f0=193.50  TOTAL=386.99 Gb/s
+1cage-2rails-linkA+B run 2: rocep1s0f0=193.52 roceP2p1s0f0=193.52  TOTAL=387.04 Gb/s
+1cage-2rails-linkA+B run 3: rocep1s0f0=193.57 roceP2p1s0f0=193.58  TOTAL=387.15 Gb/s
+2cages-2rails-sameLinkA run 1: rocep1s0f0=97.48 rocep1s0f1=98.75  TOTAL=196.23 Gb/s
+2cages-2rails-sameLinkA run 2: rocep1s0f0=97.04 rocep1s0f1=99.23  TOTAL=196.27 Gb/s
+2cages-2rails-sameLinkA run 3: rocep1s0f0=99.29 rocep1s0f1=96.81  TOTAL=196.10 Gb/s
+2cages-2rails-linkA+B run 1: rocep1s0f0=181.83 roceP2p1s0f1=184.06  TOTAL=365.89 Gb/s
+2cages-2rails-linkA+B run 2: rocep1s0f0=181.93 roceP2p1s0f1=183.51  TOTAL=365.44 Gb/s
+2cages-2rails-linkA+B run 3: rocep1s0f0=182.28 roceP2p1s0f1=184.49  TOTAL=366.77 Gb/s
+2cages-3rails run 1: rocep1s0f0=80.85 roceP2p1s0f0=81.80 rocep1s0f1=115.55  TOTAL=278.20 Gb/s
+2cages-3rails run 2: rocep1s0f0=85.38 roceP2p1s0f0=86.77 rocep1s0f1=111.00  TOTAL=283.15 Gb/s
+2cages-3rails run 3: rocep1s0f0=85.19 roceP2p1s0f0=86.53 rocep1s0f1=111.30  TOTAL=283.02 Gb/s
+2cages-4rails run 1: rocep1s0f0=100.14 roceP2p1s0f0=100.20 rocep1s0f1=96.44 roceP2p1s0f1=96.38  TOTAL=393.16 Gb/s
+2cages-4rails run 2: rocep1s0f0=100.13 roceP2p1s0f0=100.07 rocep1s0f1=96.36 roceP2p1s0f1=96.43  TOTAL=392.99 Gb/s
+2cages-4rails run 3: rocep1s0f0=100.07 roceP2p1s0f0=100.11 rocep1s0f1=96.40 roceP2p1s0f1=96.39  TOTAL=392.97 Gb/s
+RAILS_DONE

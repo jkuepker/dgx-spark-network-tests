@@ -1,0 +1,1 @@
+RESULT nccl=2.29.7 torch=2.13.0+cu130 size=268435456 iters=14705 secs=180.2 busbw_GBps=21.90

@@ -1,0 +1,122 @@
+soak-switch-1half run 1: rocep1s0f1=99.63  TOTAL=99.63 Gb/s
+soak-switch-cable run 1: rocep1s0f1=98.03 roceP2p1s0f1=98.03  TOTAL=196.06 Gb/s
+soak-direct-cable run 1: rocep1s0f0=98.03 roceP2p1s0f0=98.04  TOTAL=196.07 Gb/s
+soak-both-cables run 1: rocep1s0f0=49.40 roceP2p1s0f0=49.40 rocep1s0f1=49.41 roceP2p1s0f1=49.41  TOTAL=197.62 Gb/s
+  [rocep1s0f1:10.100.152.1] no result:
+  [roceP2p1s0f1:10.100.153.1] no result:
+soak-event-switch-cable run 1: rocep1s0f1=0 roceP2p1s0f1=0  TOTAL=0 Gb/s
+  [rocep1s0f0:10.100.154.1] no result:
+  [roceP2p1s0f0:10.100.155.1] no result:
+  [rocep1s0f1:10.100.152.1] no result:
+  [roceP2p1s0f1:10.100.153.1] no result:
+soak-event-both-cables run 1: rocep1s0f0=0 roceP2p1s0f0=0 rocep1s0f1=0 roceP2p1s0f1=0  TOTAL=0 Gb/s
+switch-1hca run1 RESULT size=4096 lat_us=18.3 busbw_GBps=0.22
+switch-1hca run1 RESULT size=65536 lat_us=59.5 busbw_GBps=1.10
+switch-1hca run1 RESULT size=262144 lat_us=73.5 busbw_GBps=3.57
+switch-1hca run1 RESULT size=1048576 lat_us=112.4 busbw_GBps=9.33
+switch-1hca run1 RESULT size=4194304 lat_us=380.4 busbw_GBps=11.03
+switch-1hca run1 RESULT size=16777216 lat_us=1521.2 busbw_GBps=11.03
+switch-1hca run1 RESULT size=67108864 lat_us=5913.3 busbw_GBps=11.35
+switch-1hca run1 RESULT size=268435456 lat_us=23486.2 busbw_GBps=11.43
+switch-1hca run1 RESULT size=536870912 lat_us=45847.2 busbw_GBps=11.71
+switch-cable run1 RESULT size=4096 lat_us=18.3 busbw_GBps=0.22
+switch-cable run1 RESULT size=65536 lat_us=55.2 busbw_GBps=1.19
+switch-cable run1 RESULT size=262144 lat_us=71.9 busbw_GBps=3.64
+switch-cable run1 RESULT size=1048576 lat_us=78.6 busbw_GBps=13.34
+switch-cable run1 RESULT size=4194304 lat_us=211.6 busbw_GBps=19.83
+switch-cable run1 RESULT size=16777216 lat_us=780.1 busbw_GBps=21.51
+switch-cable run1 RESULT size=67108864 lat_us=3086.6 busbw_GBps=21.74
+switch-cable run1 RESULT size=268435456 lat_us=12168.5 busbw_GBps=22.06
+switch-cable run1 RESULT size=536870912 lat_us=24277.8 busbw_GBps=22.11
+direct-cable run1 RESULT size=4096 lat_us=17.1 busbw_GBps=0.24
+direct-cable run1 RESULT size=65536 lat_us=59.2 busbw_GBps=1.11
+direct-cable run1 RESULT size=262144 lat_us=72.9 busbw_GBps=3.60
+direct-cable run1 RESULT size=1048576 lat_us=74.7 busbw_GBps=14.03
+direct-cable run1 RESULT size=4194304 lat_us=208.3 busbw_GBps=20.13
+direct-cable run1 RESULT size=16777216 lat_us=769.7 busbw_GBps=21.80
+direct-cable run1 RESULT size=67108864 lat_us=3047.3 busbw_GBps=22.02
+direct-cable run1 RESULT size=268435456 lat_us=12017.7 busbw_GBps=22.34
+direct-cable run1 RESULT size=536870912 lat_us=24188.2 busbw_GBps=22.20
+both-cables run1 RESULT size=4096 lat_us=15.7 busbw_GBps=0.26
+both-cables run1 RESULT size=65536 lat_us=62.5 busbw_GBps=1.05
+both-cables run1 RESULT size=262144 lat_us=70.6 busbw_GBps=3.72
+both-cables run1 RESULT size=1048576 lat_us=77.5 busbw_GBps=13.54
+both-cables run1 RESULT size=4194304 lat_us=227.4 busbw_GBps=18.44
+both-cables run1 RESULT size=16777216 lat_us=811.3 busbw_GBps=20.68
+both-cables run1 RESULT size=67108864 lat_us=3181.4 busbw_GBps=21.09
+both-cables run1 RESULT size=268435456 lat_us=12914.0 busbw_GBps=20.79
+both-cables run1 RESULT size=536870912 lat_us=25287.8 busbw_GBps=21.23
+switch-1hca run2 RESULT size=4096 lat_us=19.4 busbw_GBps=0.21
+switch-1hca run2 RESULT size=65536 lat_us=67.9 busbw_GBps=0.97
+switch-1hca run2 RESULT size=262144 lat_us=77.7 busbw_GBps=3.37
+switch-1hca run2 RESULT size=1048576 lat_us=113.5 busbw_GBps=9.24
+switch-1hca run2 RESULT size=4194304 lat_us=384.6 busbw_GBps=10.91
+switch-1hca run2 RESULT size=16777216 lat_us=1485.7 busbw_GBps=11.29
+switch-1hca run2 RESULT size=67108864 lat_us=5925.5 busbw_GBps=11.33
+switch-1hca run2 RESULT size=268435456 lat_us=23175.7 busbw_GBps=11.58
+switch-1hca run2 RESULT size=536870912 lat_us=45926.8 busbw_GBps=11.69
+switch-cable run2 RESULT size=4096 lat_us=17.8 busbw_GBps=0.23
+switch-cable run2 RESULT size=65536 lat_us=50.2 busbw_GBps=1.30
+switch-cable run2 RESULT size=262144 lat_us=57.1 busbw_GBps=4.59
+switch-cable run2 RESULT size=1048576 lat_us=73.1 busbw_GBps=14.34
+switch-cable run2 RESULT size=4194304 lat_us=210.9 busbw_GBps=19.88
+switch-cable run2 RESULT size=16777216 lat_us=778.1 busbw_GBps=21.56
+switch-cable run2 RESULT size=67108864 lat_us=3088.5 busbw_GBps=21.73
+switch-cable run2 RESULT size=268435456 lat_us=12292.5 busbw_GBps=21.84
+switch-cable run2 RESULT size=536870912 lat_us=24515.5 busbw_GBps=21.90
+direct-cable run2 RESULT size=4096 lat_us=15.6 busbw_GBps=0.26
+direct-cable run2 RESULT size=65536 lat_us=57.6 busbw_GBps=1.14
+direct-cable run2 RESULT size=262144 lat_us=71.7 busbw_GBps=3.66
+direct-cable run2 RESULT size=1048576 lat_us=75.0 busbw_GBps=13.97
+direct-cable run2 RESULT size=4194304 lat_us=208.1 busbw_GBps=20.16
+direct-cable run2 RESULT size=16777216 lat_us=771.8 busbw_GBps=21.74
+direct-cable run2 RESULT size=67108864 lat_us=3041.9 busbw_GBps=22.06
+direct-cable run2 RESULT size=268435456 lat_us=12084.1 busbw_GBps=22.21
+direct-cable run2 RESULT size=536870912 lat_us=24372.1 busbw_GBps=22.03
+both-cables run2 RESULT size=4096 lat_us=15.5 busbw_GBps=0.26
+both-cables run2 RESULT size=65536 lat_us=58.8 busbw_GBps=1.11
+both-cables run2 RESULT size=262144 lat_us=74.9 busbw_GBps=3.50
+both-cables run2 RESULT size=1048576 lat_us=79.2 busbw_GBps=13.23
+both-cables run2 RESULT size=4194304 lat_us=223.6 busbw_GBps=18.76
+both-cables run2 RESULT size=16777216 lat_us=800.9 busbw_GBps=20.95
+both-cables run2 RESULT size=67108864 lat_us=3235.0 busbw_GBps=20.74
+both-cables run2 RESULT size=268435456 lat_us=12976.8 busbw_GBps=20.69
+both-cables run2 RESULT size=536870912 lat_us=25401.5 busbw_GBps=21.14
+switch-1hca run3 RESULT size=4096 lat_us=18.7 busbw_GBps=0.22
+switch-1hca run3 RESULT size=65536 lat_us=69.1 busbw_GBps=0.95
+switch-1hca run3 RESULT size=262144 lat_us=76.1 busbw_GBps=3.44
+switch-1hca run3 RESULT size=1048576 lat_us=113.9 busbw_GBps=9.20
+switch-1hca run3 RESULT size=4194304 lat_us=398.1 busbw_GBps=10.54
+switch-1hca run3 RESULT size=16777216 lat_us=1476.1 busbw_GBps=11.37
+switch-1hca run3 RESULT size=67108864 lat_us=5903.6 busbw_GBps=11.37
+switch-1hca run3 RESULT size=268435456 lat_us=23871.8 busbw_GBps=11.24
+switch-1hca run3 RESULT size=536870912 lat_us=46214.7 busbw_GBps=11.62
+switch-cable run3 RESULT size=4096 lat_us=17.9 busbw_GBps=0.23
+switch-cable run3 RESULT size=65536 lat_us=58.9 busbw_GBps=1.11
+switch-cable run3 RESULT size=262144 lat_us=55.3 busbw_GBps=4.74
+switch-cable run3 RESULT size=1048576 lat_us=72.9 busbw_GBps=14.38
+switch-cable run3 RESULT size=4194304 lat_us=211.3 busbw_GBps=19.85
+switch-cable run3 RESULT size=16777216 lat_us=798.0 busbw_GBps=21.02
+switch-cable run3 RESULT size=67108864 lat_us=3120.6 busbw_GBps=21.50
+switch-cable run3 RESULT size=268435456 lat_us=12225.9 busbw_GBps=21.96
+switch-cable run3 RESULT size=536870912 lat_us=24549.2 busbw_GBps=21.87
+direct-cable run3 RESULT size=4096 lat_us=15.9 busbw_GBps=0.26
+direct-cable run3 RESULT size=65536 lat_us=47.8 busbw_GBps=1.37
+direct-cable run3 RESULT size=262144 lat_us=55.1 busbw_GBps=4.76
+direct-cable run3 RESULT size=1048576 lat_us=75.5 busbw_GBps=13.89
+direct-cable run3 RESULT size=4194304 lat_us=206.7 busbw_GBps=20.29
+direct-cable run3 RESULT size=16777216 lat_us=768.6 busbw_GBps=21.83
+direct-cable run3 RESULT size=67108864 lat_us=3101.1 busbw_GBps=21.64
+direct-cable run3 RESULT size=268435456 lat_us=12202.7 busbw_GBps=22.00
+direct-cable run3 RESULT size=536870912 lat_us=24331.8 busbw_GBps=22.06
+both-cables run3 RESULT size=4096 lat_us=16.0 busbw_GBps=0.26
+both-cables run3 RESULT size=65536 lat_us=59.7 busbw_GBps=1.10
+both-cables run3 RESULT size=262144 lat_us=72.6 busbw_GBps=3.61
+both-cables run3 RESULT size=1048576 lat_us=77.4 busbw_GBps=13.55
+both-cables run3 RESULT size=4194304 lat_us=227.4 busbw_GBps=18.45
+both-cables run3 RESULT size=16777216 lat_us=804.3 busbw_GBps=20.86
+both-cables run3 RESULT size=67108864 lat_us=3238.4 busbw_GBps=20.72
+both-cables run3 RESULT size=268435456 lat_us=12806.4 busbw_GBps=20.96
+both-cables run3 RESULT size=536870912 lat_us=25450.9 busbw_GBps=21.09
+MATRIX_DONE
+THERMAL_DONE
