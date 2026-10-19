@@ -121,9 +121,9 @@ B = all 4 rails (2 cables). Temperatures over the load window; tok/s are medians
 | spark2 SoC, peak / mean °C | 92.7 / 77.3 | 92.5 / 78.0 |
 | spark2 NIC, peak / mean °C | 66 / 63.0 | 66 / 63.5 |
 | GPU power, mean (each Spark) | ~40 W | ~40 W |
-| Decode, 4 streams aggregate | 186.0 tok/s | 181.2 tok/s |
+| Decode, 4 streams aggregate | 186.0 tok/s | 181.3 tok/s |
 | Decode, 1 stream, 8k prompt | 79.1 tok/s | 81.6 tok/s |
-| Prefill, 8k prompt | 4,283 tok/s | 4,281 tok/s |
+| Prefill, 8k prompt | 4,283 tok/s | 4,280 tok/s |
 | TTFT, 8k prompt | 1.93 s | 1.93 s |
 
 No difference beyond run-to-run noise. Average RDMA traffic was ~4 Gb/s each way, ~2% of one cable. B spread its bytes over

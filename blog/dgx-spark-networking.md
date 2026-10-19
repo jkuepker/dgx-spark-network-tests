@@ -262,7 +262,7 @@ Temperatures are over the 15-minute load window. Speeds are medians over all ite
 | spark2 SoC, peak / mean | 92.7 / 77.3 °C | 92.5 / 78.0 °C |
 | spark2 NIC, peak / mean | 66 / 63.0 °C | 66 / 63.5 °C |
 | GPU power, mean (each Spark) | 40.0 / 40.5 W | 39.8 / 40.6 W |
-| Decode, 4 streams aggregate | 186.0 tok/s | 181.2 tok/s |
+| Decode, 4 streams aggregate | 186.0 tok/s | 181.3 tok/s |
 | Decode, 1 stream, 8k prompt | 79.1 tok/s | 81.6 tok/s |
 | Prefill, 8k prompt | 4,283 tok/s | 4,280 tok/s |
 | Time to first token, 8k prompt | 1.93 s | 1.93 s |
