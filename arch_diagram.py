@@ -40,7 +40,7 @@ ax_, bx_ = 17, 63  # link box x
 box(ax_ - 2, 49.5, 28, 7, "PCIe link A", "Gen5 x4  ·  0000:01:00", edge=LA)
 box(bx_ - 2, 49.5, 28, 7, "PCIe link B", "Gen5 x4  ·  0002:01:00", edge=LB)
 line(ax_ + 12, 62, ax_ + 12, 56.5, LA, 4); line(bx_ + 12, 62, bx_ + 12, 56.5, LB, 4)
-ax.text(52, 59.2, "each link: 126 Gb/s raw  ·  ≈108 usable one way  ·  ≈198 both ways at once", ha="center", va="center",
+ax.text(52, 59.2, "each link: 126 Gb/s raw (spec)  ·  ≈108 usable one way  ·  ≈198 both ways at once", ha="center", va="center",
         fontsize=9.5, color=INK2, bbox=dict(fc=SURF, ec="none", pad=2), zorder=3)
 
 # --- ConnectX-7 with 4 functions ---
@@ -71,7 +71,7 @@ box(52, 4, 32, 7, "MikroTik CRS812 → spark2", "10.100.152.x / 10.100.153.x", f
 # --- right panel: bottleneck ladder ---
 px = 96
 ax.text(px, 69.5, "What caps each setup", fontsize=14, weight="bold")
-ax.text(px, 66.4, "ib_write_bw, 1 MiB, measured, Gb/s", fontsize=9.5, color=MUTED)
+ax.text(px, 66.4, "ib_write_bw, 1 MiB, measured spark1 → spark2, Gb/s", fontsize=9.5, color=MUTED)
 ax.text(px + 31, 63.3, "one way", fontsize=9, color=MUTED, ha="right")
 ax.text(px + 39.5, 63.3, "both ways", fontsize=9, color=DUP, ha="right")
 BOTH4 = "393"  # 2 cages 4 rails, ib_write_bw -b, results/2026-10-19-rails-bidir.log

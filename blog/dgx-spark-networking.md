@@ -6,7 +6,7 @@
 
 The DGX Spark has two QSFP cages on its ConnectX-7 NIC. So when people connect two Sparks, the next question is almost always the same: if one cable gives about 200 Gb/s, does a second cable give 400?
 
-A thread by [@Tech2Wild](https://x.com/Tech2Wild) on X made the case that a second cable doubles bandwidth. It is a reasonable reading of the spec sheet, and it got me to test it properly instead of guessing. Thanks to them for the prompt.
+A [thread by @Tech2Wild](https://x.com/Tech2Wild/status/2111666374032425064) on X made the case that a second cable doubles bandwidth. It is a reasonable reading of the spec sheet, and it got me to test it properly instead of guessing. Thanks to them for the prompt.
 
 I have two Sparks on my desk: `spark1` (spark-4e77) and `spark2` (spark-fa00). Over two days I ran every cable and rail combination I could set up, in both directions and both ways at once, plus NCCL all-reduce and temperature logging.
 

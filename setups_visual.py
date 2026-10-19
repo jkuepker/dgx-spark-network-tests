@@ -107,7 +107,7 @@ ax.text(px[1] + 2.5, 37.5, f"Spark A sends {RING_EACH} on one cable\nand receive
         fontsize=11.5, color=INK2, va="top")
 num(px[1] + 2.5, 28.6, f"= {RING_BOTH} both ways combined", INK, fs=15, ha="left")
 tag(px[1] + 41, 28.6, "reported")
-ax.text(px[1] + 2.5, 24.4, f"Sending alone still tops out near {TWO_CABLE}.", fontsize=10, color=MUTED)
+ax.text(px[1] + 2.5, 24.4, f"Expected: sending alone still tops out near {TWO_CABLE}.", fontsize=10, color=MUTED)
 
 # Panel 3: 4 Sparks on a switch
 c = px[2] + pw / 2; cy = 52
@@ -129,7 +129,7 @@ ax.text(px[2] + 2.5, 24.4, "CRS812: 2× 200G + 2× 400G ports, likely room for 4
 
 # --- rules strip ---
 rules = [
-    ("1", "One rail ≈ 108", "Each Spark's NIC sits on two\nPCIe x4 links, ~108 Gb/s each."),
+    ("1", "One rail ≈ 108", "Each Spark's NIC sits on two PCIe\nx4 links, ~108 Gb/s each (~100 back)."),
     ("2", f"One cable ≈ {ONE_CABLE}", f"Use both rails of one cable.\nTwo cables only reach ~{TWO_CABLE}."),
     ("3", f"Both ways ≈ {ONE_CABLE_BOTH}", f"Send and receive at once on one\ncable: {ONE_CABLE_BOTH} combined, ~2× one way."),
 ]

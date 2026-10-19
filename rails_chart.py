@@ -59,7 +59,7 @@ ax.axvline(200, color=MUTED, lw=1, ls=":"); ax.text(201, -0.6, "one 200G cable, 
 ax.set_xlabel("Gb/s, best of 3 runs", color=MUTED, fontsize=11)
 
 fig.text(0.04, 0.935, "The PCIe links set the speed, not the cables", fontsize=24, weight="bold")
-fig.text(0.04, 0.892, "One DGX Spark to another. \"Both ways\" = sending + receiving at the same time, added together. "
+fig.text(0.04, 0.892, "spark1 → spark2. \"Both ways\" = sending + receiving at the same time, added together. "
          "ib_write_bw, RoCE v2, 1 MiB writes, 10 s runs.", fontsize=12.5, color=INK2)
 for i, (c, t) in enumerate([(ONE, "one way, 1 PCIe x4 link"), (TWO, "one way, both PCIe x4 links"), (DUP, "both ways combined")]):
     fig.patches.append(plt.Rectangle((0.04 + i * 0.22, 0.035), 0.012, 0.022, color=c, transform=fig.transFigure))
