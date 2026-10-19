@@ -267,7 +267,7 @@ Temperatures are over the 15-minute load window. Speeds are medians over all ite
 | Prefill, 8k prompt | 4,283 tok/s | 4,280 tok/s |
 | Time to first token, 8k prompt | 1.93 s | 1.93 s |
 
-Sources: `results/2026-10-19-model-heat/` (`temps-*.csv`, `phases.csv`, `rdma-counters.csv`, `run.log`) and the per-iteration speed results in `load-A.csv` and `load-B.csv` in the same folder.
+Sources: `results/2026-10-19-model-heat/` (`temps-*.csv`, `phases.csv`, `rdma-counters.csv`, `run.log`) and the per-iteration speed results in `load-A.csv` and `load-B.csv` in the same folder (raw localeval output for all 43 iterations in `localeval/`).
 
 **There is no difference beyond run-to-run noise.** The temperatures match within about 1 °C. The decode numbers move a little in both directions, and they vary more between iterations of the same setup than between setups. For example, the 4-stream aggregate ranged from 161.9 to 197.1 tok/s across A's iterations and from 156.7 to 193.3 across B's.
 
