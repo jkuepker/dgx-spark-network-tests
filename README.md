@@ -84,6 +84,10 @@ Two cables on the same PCIe link get exactly one link's worth. One cable already
 spark2 -> spark1 is a little slower on one rail (99.6) and on 4 rails (197.6), not on 1 cable (196.1).
 Charts: `charts/spark-cx7-rail-combos.png`, `charts/spark-cx7-architecture.png` (`arch_diagram.py`), `charts/spark-setups-explained.png` (`setups_visual.py`).
 
+FP8 / NVFP4 "BF16-equivalent" rates: the measured rate times 2 (FP8) or 16 / 4.5 = 3.56 (NVFP4, 4-bit values plus an FP8 scale per 16).
+Compression multiplies whatever link is there: 1 cable both ways 387 -> 775 / 1,377, 2 cables 393 -> 786 / 1,398. Only the measured rate is on the wire.
+Chart: `charts/spark-cx7-compression-equivalent.png` (`compression_chart.py`).
+
 ## Follow-up: both directions, heat source, NCCL soak (2026-10-19)
 
 `./rails.sh 3` and `REVERSE=1 ./rails.sh 3` (now with a link-B single rail), best of 3, one way, Gb/s:
